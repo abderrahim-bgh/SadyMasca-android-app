@@ -1,0 +1,6 @@
+compt d'admin:
+adresse: admin@gmail.com
+mp: abdoubgh
+compt d'un prof : 
+adresse :prof@gmail.com
+mp:123456789

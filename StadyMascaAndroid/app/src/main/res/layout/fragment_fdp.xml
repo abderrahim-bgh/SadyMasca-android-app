@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent"
+    tools:context=".fdpFragment"
+                          >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#9DD7DD"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/addF"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#fff"
+                    android:fontFamily="@font/cantata_one"
+                    android:hint="@string/faculty"
+                    android:textColor="#000" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnaddF"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:background="#7ea1e1"
+                    android:text="add "
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/deletFacult"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_delete_forever_24" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/faculty1"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="40sp"
+                    android:background="#fff" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                >
+
+                <EditText
+                    android:id="@+id/addD"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#fff"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/cantata_one"
+                    android:hint="@string/departement"
+                    android:textColor="#000" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnaddD"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="#7ea1e1"
+                    android:text="add "
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/deletDeprt"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_baseline_delete_forever_24" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/department1"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="40sp"
+                    android:background="#fff" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+
+                <EditText
+                    android:id="@+id/addP"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#fff"
+                    android:layout_weight="3"
+                    android:fontFamily="@font/cantata_one"
+                    android:hint="the Specialty Name of M1/M2"
+                    android:textColor="#000" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnaddP"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="70dp"
+                    android:background="#7ea1e1"
+                    android:text="add "
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/deletPromo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_baseline_delete_forever_24" />
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/promo1"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="40sp"
+                    android:background="#fff" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnaddL"
+                android:layout_width="250dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:background="#7ea1e1"
+                android:fontFamily="@font/cantata_one"
+                android:text="Add L2, L3"
+                android:textColor="#fff" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

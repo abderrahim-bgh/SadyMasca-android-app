@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537372217677",
+    "project_id": "notification-a5067",
+    "storage_bucket": "notification-a5067.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537372217677:android:998b9883e6461bb09c2704",
+        "android_client_info": {
+          "package_name": "com.example.stadymasca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537372217677-d71ik4phg6kscb9hjl03shgviid0hvbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdm-TORgV1jHk9MYAsp6qq_6CpuDnENco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537372217677-d71ik4phg6kscb9hjl03shgviid0hvbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

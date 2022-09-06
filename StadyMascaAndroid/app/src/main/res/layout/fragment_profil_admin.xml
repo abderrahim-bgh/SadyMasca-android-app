@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profil_admin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+
+        >
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/profil_image"
+
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logoapp" />
+
+
+        <TextView
+
+            android:id="@+id/profil_fullName"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="unv masca"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0096d2"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/person"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/profil_email1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+
+            />
+        <TextView
+            android:id="@+id/profil_email"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User00@unv_mascara.com"
+            android:textColor="#404042"
+            android:textSize="18dp"
+            android:layout_marginLeft="16dp" />
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#404042"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_unv"
+
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/profil_depart1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="department"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/profil_deprt"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="your department"
+                android:textColor="#404044"
+                android:textSize="18dp"
+                android:layout_marginLeft="16dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#404042"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/scool"
+
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/profil_promo1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/profil_promo"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="your promo"
+                android:textColor="#404044"
+                android:textSize="18dp"
+                android:layout_marginLeft="16dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#404042"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/pub_prof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn55"
+            android:gravity="center"
+            android:text="publishe"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/edit_profil"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn55"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:text="Edit profil"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

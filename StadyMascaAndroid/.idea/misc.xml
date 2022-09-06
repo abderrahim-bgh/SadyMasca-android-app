@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/soutnoce/StadyMascaJV/app/src/main/res/layout/activity_load.xml" value="0.1838768115942029" />
+        <entry key="..\:/soutnoce/StadyMascaJV/app/src/main/res/layout/activity_loading2.xml" value="0.1838768115942029" />
+        <entry key="..\:/soutnoce/StadyMascaJV/app/src/main/res/layout/activity_publication.xml" value="0.1838768115942029" />
+        <entry key="..\:/soutnoce/StadyMascaJV/app/src/main/res/layout/activity_teacher.xml" value="0.1838768115942029" />
+        <entry key="..\:/soutnoce/StadyMascaJV/app/src/main/res/layout/fragment_etudient_frg.xml" value="0.1838768115942029" />
+        <entry key="..\:/soutnoce/StadyMascaJV/app/src/main/res/layout/view_profil.xml" value="0.1838768115942029" />
+        <entry key="..\:/soutnoce/StadyMascaJV/app/src/main/res/menu/bottom_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/soutnoce/StadyMascaJV/app/src/main/res/menu/item_pub_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/soutnoce/StadyMascaJV/app/src/main/res/menu/menuhome.xml" value="0.25416666666666665" />
+        <entry key="..\:/soutnoce/StadyMascaJV/app/src/main/res/menu/menuhome_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/soutnoce/soutnoce/StadyMascaAndroid/app/src/main/res/layout/activity_loading3.xml" value="0.17753623188405798" />
+        <entry key="..\:/soutnoce/soutnoce/StadyMascaAndroid/app/src/main/res/layout/activity_sign_up.xml" value="0.17753623188405798" />
+        <entry key="..\:/soutnoce/soutnoce/StadyMascaAndroid/app/src/main/res/layout/fragment_home_freg.xml" value="0.17753623188405798" />
+        <entry key="..\:/soutnoce/soutnoce/StadyMascaAndroid/app/src/main/res/layout/fragment_profil_admin.xml" value="0.17753623188405798" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

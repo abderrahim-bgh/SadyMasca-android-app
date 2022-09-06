@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drwbl"
+    android:fitsSystemWindows="false"
+    tools:openDrawer="start"
+    tools:context=".teacher">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbrmenu"
+            app:title="app"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="4dp"
+            android:background="#0096d2"
+            />
+
+
+        <FrameLayout
+            android:id="@+id/btn_container"
+            android:layout_width="match_parent"
+            android:layout_height="584dp"
+            android:layout_above="@+id/botton_navg"
+            android:layout_below="@+id/toolbrmenu"
+            android:layout_marginBottom="0dp">
+
+        </FrameLayout>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/botton_navg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_navigation"
+            android:background="#0096d2"
+            app:itemIconSize="30dp"
+            app:itemTextColor="#0096d2"
+            android:outlineAmbientShadowColor="#0096d2"
+            android:outlineSpotShadowColor="#0096d2"
+
+
+            app:itemRippleColor="#0096d2"
+            />
+
+
+
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header"
+        android:id="@+id/nav_vview"
+        app:menu="@menu/menuhome"
+        android:outlineSpotShadowColor="#0096d2"
+        android:outlineAmbientShadowColor="#0096d2"
+        android:layout_gravity="start"
+        app:itemIconSize="30dp"
+        app:itemRippleColor="#0096d2"
+
+
+        />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

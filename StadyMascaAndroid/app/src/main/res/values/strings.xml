@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Study Masca</string>
+    <string name="appforunv">application for universty</string>
+    <string name="user_name">User Name</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="fullename">Full Name</string>
+    <string name="email">email</string>
+    <string name="next">Next</string>
+    <string name="matricul">Registration number</string>
+    <string name="departement">Departement</string>
+    <string name="science_exact">Science Exact</string>
+    <string name="science_technologie">Science Technologie</string>
+    <string name="departement2">Departement  :</string>
+    <string name="signUp">SignUp</string>
+    <string name="back">Back</string>
+    <string name="pass2">password Confirmation</string>
+    <string name="lastname">lastname</string>
+    <string name="faculty">faculty</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lastName">last Name</string>
+    <string-array name="typ_pub">
+        <item>All university</item>
+        <item>Faculty affiliation</item>
+        <item>Deprtment affiliation</item>
+        <item>Select promo</item>
+    </string-array>
+    <string-array name="typ_pub1">
+        <item>Faculty affiliation</item>
+        <item>Deprtment affiliation</item>
+        <item>Select promo</item>
+    </string-array>
+    <string-array name="typ_pub0">
+        <item>Deprtment affiliation</item>
+        <item>Select promo</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addfaculty">Add Faculty</string>
+</resources>

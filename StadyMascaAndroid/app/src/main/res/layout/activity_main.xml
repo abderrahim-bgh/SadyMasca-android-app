@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgbleu"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="130dp"
+        android:foregroundGravity="center"
+        android:layout_weight="3"
+        android:src="@drawable/logoapp3"
+        android:transitionName="logo_img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+         />
+
+    <TextView
+        android:id="@+id/textmain"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="116dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#fff"
+        android:textSize="60dp"
+        android:transitionName="logo_text"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/audiowide"
+        android:gravity="center"
+        android:text="Application for unversity"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:transitionName="logo_text"
+        />
+
+
+</LinearLayout>

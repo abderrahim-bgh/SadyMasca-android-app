@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imaglog"
+                android:layout_width="227dp"
+                android:layout_height="199dp"
+                android:src="@drawable/logoapp"
+                android:transitionName="logo_img" />
+
+            <TextView
+                android:id="@+id/log_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:fontFamily="@font/audiowide"
+                android:paddingLeft="35dp"
+                android:text="@string/app_name"
+                android:textColor="#000"
+                android:textSize="40sp"
+                android:transitionName="logo_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:orientation="vertical"
+                android:padding="27dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/fullName"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:hint="@string/fullename"
+                    android:textColorHint="#fff">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/fullName2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/edttxt"
+
+                        android:inputType="text"
+                        android:textColor="#fff"
+
+                        >
+
+                    </com.google.android.material.textfield.TextInputEditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/lastname"
+
+
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:hint="@string/lastName"
+                    android:textColorHint="#fff"
+
+                    android:transitionName="username_tran">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/lastName2"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/edttxt"
+
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:textColor="#fff">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/password2"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:hint="@string/password"
+                    android:textColorHint="#fff"
+                    android:transitionName="password_tran"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/password3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textPassword"
+                        android:background="@drawable/edttxt"
+                        android:textColor="#fff">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:hint="@string/email"
+                    android:id="@+id/eml1"
+                    android:textColorHint="#fff">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="textEmailAddress"
+                        android:background="@drawable/edttxt"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/nymReg"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:hint="@string/matricul"
+
+
+                    android:textColorHint="#fff">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/numRegst"
+                        android:background="@drawable/edttxt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="number"
+                        android:textColor="#fff">
+
+                    </com.google.android.material.textfield.TextInputEditText>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <CheckBox
+                    android:id="@+id/prof"
+                    android:layout_width="match_parent"
+                    android:layout_height="34dp"
+                    android:fontFamily="@font/cantata_one"
+                    android:onClick="supNumCart"
+                    android:text="I am a Professor"
+                    android:textColor="#000"
+                    tools:ignore="OnClick" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cantata_one"
+                        android:text="@string/faculty"
+                        android:textColor="#000" />
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/facult"
+
+                        android:background="@drawable/spinner"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cantata_one"
+                        android:text="@string/departement"
+                        android:textColor="#000" />
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+
+                        android:id="@+id/deprt"
+                        android:background="@drawable/spinner"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="-20dp"
+                        android:layout_marginBottom="5dp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/cantata_one"
+                        android:text="Promo"
+                        android:textColor="#000" />
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/year"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spinner"
+                        android:layout_marginBottom="5dp" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/nextbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="-27dp"
+                android:layout_marginRight="27dp"
+
+                android:background="@drawable/buttonshape"
+                android:text="@string/next"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:transitionName="button_tran" />
+
+            <Button
+                android:id="@+id/callLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="Already have an account? LogIn"
+                android:textColor="#000"
+                android:transitionName="login_signup_tran" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
